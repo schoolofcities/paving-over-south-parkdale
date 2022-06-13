@@ -1,5 +1,6 @@
 <script>
 	import TopSofC from './lib/TopSofC.svelte'
+	import Compare1947v1964 from './lib/Compare1947v1964.svelte'
 </script>
 
 <style>
@@ -21,6 +22,8 @@
 </style>
 
 <TopSofC/>
+<Compare1947v1964/>
+
 <main>	
 	
 </main>
