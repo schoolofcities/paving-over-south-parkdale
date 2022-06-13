@@ -24,6 +24,15 @@
 		margin: 0px;
 	}
 
+	.road {
+		background-color: rgb(247, 247, 247);
+	}
+	.white {
+		margin: auto;
+		width: 1400px;
+		background-color: white;
+	}
+
 	#title {
 		display: flex;
 		justify-content: center;
@@ -33,6 +42,7 @@
 	#title img {
 		margin: 0px;
 		padding: 0px;
+		width: 100%;
 		max-width: 1000px;
 		box-shadow: 5px 5px 0 0 rgb(244, 244, 244);
 	}
@@ -54,6 +64,8 @@
 		max-width: 800px;
 		min-width: 300px;
 		padding: 10px;
+		padding-top: 25px;
+		padding-bottom: 25px;
 		font-size: 21px;
 		font-family: Bitter, serif;
 		line-height: 1.5;
@@ -61,6 +73,7 @@
 
 	.image {
 		margin: auto;
+		width: 100%;
 		max-width: 1000px;
 		border: 1px solid rgb(213, 213, 213);
 		box-shadow: 5px 5px 0 0 rgb(244, 244, 244);
@@ -71,6 +84,7 @@
 	.image img {
 		max-width: 980px;
 		padding: 10px;
+		width: 100%;
 		opacity: 0.65;
 	}
 	.image img:hover {
@@ -81,45 +95,58 @@
 
 
 
+
 <TopSofC/>
 
-
-<div id="title">
-	<img src={airphoto1957} alt="Air Photo 1957">
-	<h1>Paving Over South Parkdale</h1>
+<div class="road">
+	<div class="white">
+		<div id="title">
+			<img src={airphoto1957} alt="Air Photo 1957">
+			<h1>Paving Over South Parkdale</h1>
+		</div>
+	</div>
 </div>
-
 
 <div class="body-text">
 	<p><b><i>A series of maps documenting the loss of a neighbourhood:</i></b></p>
 	<p>
 	The mid-20th century was an time of contentious highway construction. 
 	There were already several intra-urban expressways in southern Ontario (400, 401, QEW).	
-	By the mid-1950s, Metro Toronto were planning five expressways that connected existing the then-peripheral expressways to the downtown core. 
+	By the mid-1950s, Metro Toronto officials were planning five expressways that connected existing the then-peripheral expressways to the downtown core. 
 	</p>
 	<p>
 	Here's an excerpt from the The Globe and Mail from December 1, 1955, showing their approximate location and priority.
 	</p>
 </div>
 
-<div class="image">
-	<a href={globe1955}><img src={globe1955} alt="Globe and Mail, Dec 1, 1955"></a>
+<div class="road">
+	<div class="white">
+		<div class="image">
+			<a href={globe1955} target="_blank"><img src={globe1955} alt="Globe and Mail, Dec 1, 1955"></a>
+		</div>
+	</div>
 </div>
 
 <div class="body-text">
 	<p>
 		The two (later renamed after QQQQQ QQQ Gardiner) were 
 
-		The routes of these expressways generally followed greenspace and industrial land, and not through.
+		The routes of these expressways generally followed greenspace and industrial land, and not primarilly through residential neighbourhoods.
+	</p>
+
+	<p>
+		However, there was one neighbourhood that was destroyed during this process, <b>South Parkdale.</b>
 	
-		However, 
+	</p>
+
+	<p>
+		The following air photos show South Parkdale in 1947, several years before the construction and what the newly finished highway looked like in 1964.
 	
-			
-		
-		One 
 	</p>
 </div>
 
-
-
-<Compare1947v1964/>
+<div class="road">
+	<div class="white">
+		<Compare1947v1964/>
+	</div>
+</div>

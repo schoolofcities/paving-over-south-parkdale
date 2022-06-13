@@ -13,7 +13,7 @@
 		margin-bottom: 20px;
 		border-bottom: 1px solid rgb(245, 245, 245);
 		width: 100%;
-		min-width: 500px;
+		min-width: 200px;
 		padding-left: 10px;
 		padding-right: 10px;
 		text-align: center;

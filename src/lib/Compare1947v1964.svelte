@@ -15,8 +15,8 @@
 		imageRightSrc={img_1964}
 		imageRightAlt="right"
 		--handle-size="3rem"
-		--slider-color="#ffffff"
-		--slider-width="0.2rem"
+		--slider-color="white"
+		--slider-width="0.17rem"
 	/>
 </div>
 
@@ -38,5 +38,5 @@
 		margin: auto;
 		max-width: 1000px;
 	}
-	
+
 </style>
