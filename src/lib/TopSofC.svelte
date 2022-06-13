@@ -9,9 +9,9 @@
 <style>
 	#bar {
 		height: 50px;
-		background-color: #121212;
+		background-color: #ffffff;
 		margin-bottom: 20px;
-		border-bottom: 1px solid rgb(54, 54, 54);
+		border-bottom: 1px solid rgb(245, 245, 245);
 		width: 100%;
 		min-width: 500px;
 		padding-left: 10px;
