@@ -5,19 +5,35 @@
 </script>
 
 <div id="compare-images">
-<CompareImage
-	imageLeftSrc={img_1947}
-	imageLeftAlt="left"
-	imageRightSrc={img_1964}
-	imageRightAlt="right"
-	--handle-size="3rem"
-	--slider-color="#ffffff"
-	--slider-width="0.2rem"
-/>
+	<div id="years">
+		<div id="left-year">1964</div>
+		<div id="right-year">1947</div>
+	</div>
+	<CompareImage
+		imageLeftSrc={img_1964}
+		imageLeftAlt="left"
+		imageRightSrc={img_1947}
+		imageRightAlt="right"
+		--handle-size="3rem"
+		--slider-color="#ffffff"
+		--slider-width="0.2rem"
+	/>
 </div>
 
 <style>
+	#years {
+		overflow: hidden;
+		color: red;
+	}
+	#left-year {
+		float: left;
+		text-align: left;
+	}
+	#right-year {
+		text-align: right;
+	}
 	#compare-images {
+		margin: auto;
 		max-width: 1000px;
 	}
 </style>
