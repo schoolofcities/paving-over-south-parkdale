@@ -70,9 +70,9 @@
 		min-width: 300px;
 		padding-top: 25px;
 		padding-bottom: 25px;
-		font-size: 21px;
+		font-size: 20px;
 		font-family: Bitter, serif;
-		line-height: 1.5;
+		line-height: 1.65;
 	}
 
 	.body-text p {

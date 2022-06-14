@@ -1,42 +1,49 @@
 <script lang="ts">
-	import { CompareImage } from "svelte-compare-image";
 	import plan_1979_A from '../assets/plan_1979_A.jpg'
 	import plan_1979_B from '../assets/plan_1979_B.jpg'
+
+	import {fade} from 'svelte/transition'
+	
+	const carouselPhotos = [
+		plan_1979_B, plan_1979_A
+	]
+	
+	let index = 0
+	
+	const next = () => {
+		index = (index + 1) % carouselPhotos.length
+	}
 </script>
 
-<div id="compare-images">
-	<!-- <div id="years">
-		<div id="left-year">1947</div>
-		<div id="right-year">1964</div>
-	</div> -->
-	<CompareImage
-		imageLeftSrc={plan_1979_A}
-		imageLeftAlt="left"
-		imageRightSrc={plan_1979_B}
-		imageRightAlt="right"
-		--handle-size="3rem"
-		--slider-color="white"
-		--slider-width="0.17rem"
-	/>
-</div>
-
 <style>
-	#years {
-		overflow: hidden;
-		color: red;
-	}
-	#left-year {
-		float: left;
-		text-align: left;
-		padding-left: 5px;
-	}
-	#right-year {
-		text-align: right;
-		padding-right: 5px;
-	}
+	
 	#compare-images {
 		margin: auto;
 		max-width: 1000px;
+		width: 100%;
+		border: 1px solid rgb(213, 213, 213);
+		box-shadow: 5px 5px 0 0 rgb(244, 244, 244);
+		opacity: 0.84;
+	}
+
+	#compare-images:hover {
+		border: 1px solid red;
+		cursor: pointer;
+		opacity: 0.95;
+	}
+
+	img {
+		max-width: 1000px;
+		width: 100%;
 	}
 
 </style>
+
+
+<div id="compare-images">
+	{#each [carouselPhotos[index]] as src (index)}
+		<img {src} on:click={next} alt="" />	
+	{/each}
+	
+</div>
+
