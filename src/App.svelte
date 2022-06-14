@@ -26,7 +26,7 @@
 	}
 
 	.road {
-		background-color: rgb(249, 249, 249);
+		background-color: rgb(251, 251, 251);
 		margin: auto;
 		width: 100%;
 		padding: 0px;
@@ -81,6 +81,14 @@
 
 	.body-text .bold {
 		color: red;
+		font-weight: bold;
+	}
+
+	.body-text a {
+		color: black;
+		text-decoration: underline;
+	}
+	.body-text a:hover {
 		font-weight: bold;
 	}
 
@@ -175,7 +183,7 @@
 
 <div class="body-text">	
 	<p>
-		John Sewell, mayor of Toronto from 1978 to 1980, and staff released a plan for covering the expressway to reduce it's noise, better connect Parkdale to the waterfront, and create space for residential development. Due to high costs, the plans never came to fruition, but they do illustrate how the detriments of the expressway could be converted into needed green space and public housing in the future.
+		<a href="https://en.wikipedia.org/wiki/John_Sewell">John Sewell</a> (mayor of Toronto from 1978 to 1980) and his staff released a plan for covering the expressway in aims to reduce it's noise, better connect Parkdale to the waterfront, as well as create space for residential development. Due to high costs, the plans never came to fruition, but they do illustrate how the detriments of the expressway could be converted into needed green space and public housing in the future.
 	</p>
 </div>
 

@@ -14,8 +14,8 @@
 		border-bottom: 1px solid rgb(245, 245, 245);
 		width: 100%;
 		min-width: 200px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 0px;
+		padding-right: 0px;
 		text-align: center;
 	}
 	img {

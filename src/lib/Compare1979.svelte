@@ -40,10 +40,10 @@
 </style>
 
 
+
+
 <div id="compare-images">
 	{#each [carouselPhotos[index]] as src (index)}
 		<img {src} on:click={next} alt="" />	
 	{/each}
-	
 </div>
-
