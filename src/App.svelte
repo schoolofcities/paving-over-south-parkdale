@@ -31,9 +31,21 @@
 		width: 100%;
 		padding: 0px;
 	}
+	.road-top {
+		background-color: rgb(172, 172, 172);
+		margin: auto;
+		width: 100%;
+		padding: 0px;
+	}
 	.white {
 		margin: auto;
 		max-width: 1400px;
+		width: 100%;
+		background-color: white;
+	}
+	.white-top {
+		margin: auto;
+		max-width: 1100px;
 		width: 100%;
 		background-color: white;
 	}
@@ -77,6 +89,7 @@
 
 	.body-text p {
 		padding: 10px;
+		color: rgb(34, 34, 34);
 	}
 
 	.body-text .bold {
@@ -85,11 +98,11 @@
 	}
 
 	.body-text a {
-		color: black;
+		color: rgb(34, 34, 34);
 		text-decoration: underline;
 	}
 	.body-text a:hover {
-		font-weight: bold;
+		color: red;
 	}
 
 	.image {
@@ -130,8 +143,8 @@
 
 <TopSofC/>
 
-<div class="road">
-	<div class="white">
+<div class="road-top">
+	<div class="white-top">
 		<div id="title">
 			<img src={airphoto1957} alt="Air Photo 1957">
 			<h1>Paving Over South Parkdale</h1>
@@ -183,7 +196,7 @@
 
 <div class="body-text">	
 	<p>
-		<a href="https://en.wikipedia.org/wiki/John_Sewell">John Sewell</a> (mayor of Toronto from 1978 to 1980) and his staff released a plan for covering the expressway in aims to reduce it's noise, better connect Parkdale to the waterfront, as well as create space for residential development. Due to high costs, the plans never came to fruition, but they do illustrate how the detriments of the expressway could be converted into needed green space and public housing in the future.
+		<a href="https://en.wikipedia.org/wiki/John_Sewell">John Sewell</a> (mayor of Toronto from 1978 to 1980) and his staff released a plan for covering the expressway in aims to reduce it's noise, better connect Parkdale to the waterfront, as well as create space for residential development. Due to high costs, the plans never came to fruition, but they do illustrate how some of the detriments of the expressway could be converted into needed green space and public housing in the future.
 	</p>
 </div>
 
@@ -192,11 +205,6 @@
 		<Compare1979/>
 	</div>
 </div>
-
-
-
-
-
 
 <div class="info">
 	<p><b>More information and image sources</b></p>
