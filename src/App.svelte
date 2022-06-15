@@ -10,6 +10,7 @@
 <svelte:head>
 	<link href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap" rel="stylesheet"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>	
 </svelte:head>
 
 <style>
@@ -248,7 +249,7 @@
 	<p><b>More information:</b></p>
 
 	<p>
-		
+	
 	This page and its content were compiled by <a href="https://jamaps.github.io" target="_blank">Jeff Allen</a>. 
 		
 	The <a href="https://www.toronto.ca/city-government/accountability-operations-customer-service/access-city-information-or-records/city-of-toronto-archives/whats-online/maps/aerial-photographs/" target="_blank">air photos</a> and the <a href="https://gencat4.eloquent-systems.com/webcat/request/Action?ClientSession=2de590be:18165c1105c:-7ec2&UniqueID=6000_3355_2&TemplateProcessID=6000_3355&PromptID=&ParamID=&CMD_(DetailRequest)[0]=&ProcessID=6000_3363(0)&KeyValues=KEY_450943" target="_blank">1979 plans</a> were sourced from the Toronto Archives. 

@@ -6,8 +6,11 @@
 	<a href="https://www.schoolofcities.utoronto.ca/"><img src={logo} alt="School of Cities"></a>
 </div>
 
+
+
 <style>
 	#bar {
+		transform: translate3d(0,0,0);
 		position: fixed;
    		top: 0px;
 		height: 50px;
