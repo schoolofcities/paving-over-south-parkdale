@@ -76,11 +76,14 @@
 		text-align: center;
 		max-width: 700px;
 		min-width: 300px;
-		padding-top: 25px;
+		margin-top: 35px;
+		padding-top: 5px;
 		font-size: 19px;
 		font-family: TradeGothicBold, sans-serif;
 		/* font-family: 'Roboto', sans-serif; */
 		line-height: 1.45;
+		border-top: solid 1px black;
+		border-bottom: solid 1px black;
 	}
 
 	.body-text {
@@ -91,11 +94,10 @@
 		font-family: 'Source Serif Pro', serif;
 		/* font-family: 'Roboto', sans-serif; */
 		line-height: 1.45;
-		padding: 10px;
+		padding: 20px;
 	}
 
 	.body-text p {
-		
 		color: rgb(0, 0, 0);
 	}
 
@@ -134,9 +136,13 @@
 
 	.info {
 		margin: auto;
+		margin-top: 50px;
+		border-top: solid 1px black;
+		border-bottom: solid 1px black;
 		max-width: 700px;
 		min-width: 300px;
-		padding-top: 25px;
+		padding: 20px;
+		padding-top: 15px;
 		padding-bottom: 25px;
 		font-size: 17px;
 		font-family: Bitter, serif;
@@ -176,7 +182,7 @@
 	<p>
 	The mid-20th century was a time of contentious highway construction.
 
-	By the mid-1950s, there were already several intra-urban expressways in southern Ontario (Highwys 400, 401, and the QEW). Metro Toronto officials were planning five additional expressways to connect these existing then-peripheral expressways to the downtown core. 
+	By the mid-1950s, there were already several intra-urban expressways in southern Ontario (Highways 400, 401, and the QEW), and Metro Toronto officials were in the process of planning five additional expressways to connect these existing these to the downtown core. 
 	</p>
 	<p>
 	Here's an excerpt from the The Globe and Mail from December 1, 1955, showing their approximate location and priority.
