@@ -4,6 +4,7 @@
 	import Compare1979 from './lib/Compare1979.svelte'
 	import airphoto1957 from './assets/TA_1957_screenshot.png'
 	import globe1955 from './assets/1955dec1globe.png'
+	import MiniMap from './assets/mini-map.png'
 </script>
 
 <svelte:head>
@@ -28,7 +29,7 @@
 	}
 
 	.road {
-		background-color: rgb(249, 249, 249);
+		background-color: rgb(248, 248, 248);
 		margin: auto;
 		width: 100%;
 		padding: 0px;
@@ -63,7 +64,7 @@
 		color: rgb(0, 0, 0);
 		text-align: center;
 		position: absolute;
-		font-size: 44px;
+		font-size: 46px;
 		max-width: 800px;
 		margin: auto;
 		padding: 10px;
@@ -113,6 +114,13 @@
 	.body-text a:hover {
 		color: red;
 	}
+	.body-text img {
+		float: left;
+		width: 154px;
+		height: 154px;
+		margin-top: 7px;
+		margin-right: 17px;
+	}
 
 	.image {
 		margin: auto;
@@ -144,6 +152,7 @@
 		padding: 20px;
 		padding-top: 15px;
 		padding-bottom: 25px;
+		margin-bottom: 50px;
 		font-size: 17px;
 		font-family: Bitter, serif;
 		line-height: 1.5;
@@ -201,11 +210,13 @@
 	<p>
 		The two top priority highways, the Don Valley Parkway and The Lakeshore Expressway (later renamed after the first chair of the Metro Council, Frederick G. Gardiner) were built during the late 1950s and early 1960s.
 
-		The routes of these expressways generally followed greenspace and industrial land, and not primarilly through residential neighbourhoods. (The other three expressways were halted due to strong public opposition).
+		The routes of these expressways generally followed green-space and industrial land, and not primarily through residential neighbourhoods. (The other three planned expressways on this map were to traverse a number residential neighbourhoods, and were eventually halted due to strong public opposition).
 	</p>
 
+	<img src={MiniMap} alt="Globe and Mail, Dec 1, 1955">
 	<p>
-		However, there was a neighbourhood along the route of the Lakeshore Expressway that was destroyed during this process, <span class="bold">South Parkdale</span>, located between the . The neighbourhood primarilly consisted of single-detached homes of similar architectural style to those still found north of the railrod tracks. 
+		However, there was a neighbourhood along the route of the Lakeshore Expressway that was destroyed during this process, <span class="bold">South Parkdale</span>, located between the railway and Lake Ontario. The neighbourhood primarily consisted of single-detached homes, similar in style to those still found north of the railroad tracks.
+		
 	</p>
 
 	<p>
@@ -232,11 +243,11 @@
 </div>
 
 <div class="info">
-	<p><b>More information and image sources</b></p>
+	<p><b>More information:</b></p>
 
 	<p>
 		
-	This page and it's content were compiled by <a href="https://jamaps.github.io" target="_blank">Jeff Allen</a>. 
+	This page and its content were compiled by <a href="https://jamaps.github.io" target="_blank">Jeff Allen</a>. 
 		
 	The <a href="https://www.toronto.ca/city-government/accountability-operations-customer-service/access-city-information-or-records/city-of-toronto-archives/whats-online/maps/aerial-photographs/" target="_blank">air photos</a> and the <a href="https://gencat4.eloquent-systems.com/webcat/request/Action?ClientSession=2de590be:18165c1105c:-7ec2&UniqueID=6000_3355_2&TemplateProcessID=6000_3355&PromptID=&ParamID=&CMD_(DetailRequest)[0]=&ProcessID=6000_3363(0)&KeyValues=KEY_450943" target="_blank">1979 plans</a> were sourced from the Toronto Archives. 
 	
