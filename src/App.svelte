@@ -7,7 +7,8 @@
 </script>
 
 <svelte:head>
-	<link href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap" rel="stylesheet"> 
 </svelte:head>
 
 <style>
@@ -23,31 +24,25 @@
 	:global(body) {
 		padding: 0px;
 		margin: 0px;
+		background-color: rgb(251, 251, 251);
 	}
 
 	.road {
-		background-color: rgb(251, 251, 251);
+		background-color: rgb(249, 249, 249);
 		margin: auto;
 		width: 100%;
 		padding: 0px;
 	}
-	.road-top {
-		background-color: rgb(172, 172, 172);
-		margin: auto;
-		width: 100%;
-		padding: 0px;
-	}
+
 	.white {
 		margin: auto;
 		max-width: 1400px;
 		width: 100%;
-		background-color: white;
+		background-color: rgb(251, 251, 251);
 	}
-	.white-top {
-		margin: auto;
-		max-width: 1100px;
-		width: 100%;
-		background-color: white;
+
+	#top-space {
+		height: 100px;
 	}
 
 	#title {
@@ -76,20 +71,32 @@
 		border: solid 1px red;
 	}
 
+	.subtitle {
+		margin: auto;
+		text-align: center;
+		max-width: 700px;
+		min-width: 300px;
+		padding-top: 25px;
+		font-size: 19px;
+		font-family: TradeGothicBold, sans-serif;
+		/* font-family: 'Roboto', sans-serif; */
+		line-height: 1.45;
+	}
+
 	.body-text {
 		margin: auto;
 		max-width: 700px;
 		min-width: 300px;
-		padding-top: 25px;
-		padding-bottom: 25px;
-		font-size: 20px;
-		font-family: Bitter, serif;
-		line-height: 1.65;
+		font-size: 19px;
+		font-family: 'Source Serif Pro', serif;
+		/* font-family: 'Roboto', sans-serif; */
+		line-height: 1.45;
+		padding: 10px;
 	}
 
 	.body-text p {
-		padding: 10px;
-		color: rgb(34, 34, 34);
+		
+		color: rgb(0, 0, 0);
 	}
 
 	.body-text .bold {
@@ -135,6 +142,13 @@
 		font-family: Bitter, serif;
 		line-height: 1.5;
 	}
+	.info a {
+		color: rgb(34, 34, 34);
+		text-decoration: underline;
+	}
+	.info a:hover {
+		color: red;
+	}
 
 </style>
 
@@ -143,8 +157,10 @@
 
 <TopSofC/>
 
-<div class="road-top">
-	<div class="white-top">
+<div id="top-space"></div>
+
+<div class="road">
+	<div class="white">
 		<div id="title">
 			<img src={airphoto1957} alt="Air Photo 1957">
 			<h1>Paving Over South Parkdale</h1>
@@ -152,12 +168,15 @@
 	</div>
 </div>
 
+<div class="subtitle">
+	<h3>A series of maps documenting the loss of a neighbourhood</h3>
+</div>
+
 <div class="body-text">
-	<p><b><i>A series of maps documenting the loss of a neighbourhood:</i></b></p>
 	<p>
 	The mid-20th century was a time of contentious highway construction.
 
-	By the 1950s, there were already several intra-urban expressways in southern Ontario (Highwys 400, 401, and the QEW) and Metro Toronto officials were planning five additional expressways to connect these existing then-peripheral expressways to the downtown core. 	
+	By the mid-1950s, there were already several intra-urban expressways in southern Ontario (Highwys 400, 401, and the QEW). Metro Toronto officials were planning five additional expressways to connect these existing then-peripheral expressways to the downtown core. 
 	</p>
 	<p>
 	Here's an excerpt from the The Globe and Mail from December 1, 1955, showing their approximate location and priority.
@@ -176,11 +195,11 @@
 	<p>
 		The two top priority highways, the Don Valley Parkway and The Lakeshore Expressway (later renamed after the first chair of the Metro Council, Frederick G. Gardiner) were built during the late 1950s and early 1960s.
 
-		The routes of these expressways generally followed greenspace and industrial land, and not primarilly through residential neighbourhoods. 
+		The routes of these expressways generally followed greenspace and industrial land, and not primarilly through residential neighbourhoods. (The other three expressways were halted due to strong public opposition).
 	</p>
 
 	<p>
-		However, there was one neighbourhood that was destroyed during this process, <span class="bold">South Parkdale</span>, located between the . The neighbourhood primarilly consisted of single-detached homes of similar architectural style to those still found north of the railrod tracks. 
+		However, there was a neighbourhood along the route of the Lakeshore Expressway that was destroyed during this process, <span class="bold">South Parkdale</span>, located between the . The neighbourhood primarilly consisted of single-detached homes of similar architectural style to those still found north of the railrod tracks. 
 	</p>
 
 	<p>
@@ -196,7 +215,7 @@
 
 <div class="body-text">	
 	<p>
-		<a href="https://en.wikipedia.org/wiki/John_Sewell">John Sewell</a> (mayor of Toronto from 1978 to 1980) and his staff released a plan for covering the expressway in aims to reduce it's noise, better connect Parkdale to the waterfront, as well as create space for residential development. Due to high costs, the plans never came to fruition, but they do illustrate how some of the detriments of the expressway could be converted into needed green space and public housing in the future.
+		In 1979, <a href="https://en.wikipedia.org/wiki/John_Sewell">John Sewell</a> (mayor of Toronto from 1978 to 1980) and his staff released a plan for covering the expressway in aims to reduce it's noise, better connect Parkdale to the waterfront, as well as create space for residential development. Due to high costs, the plans never came to fruition, but they do illustrate how some of the detriments of the expressway could be converted into needed green space and public housing in the future.
 	</p>
 </div>
 
@@ -208,5 +227,20 @@
 
 <div class="info">
 	<p><b>More information and image sources</b></p>
-	<p>Include here!</p>
+
+	<p>
+		
+	This page and it's content were compiled by <a href="https://jamaps.github.io" target="_blank">Jeff Allen</a>. 
+		
+	The <a href="https://www.toronto.ca/city-government/accountability-operations-customer-service/access-city-information-or-records/city-of-toronto-archives/whats-online/maps/aerial-photographs/" target="_blank">air photos</a> and the <a href="https://gencat4.eloquent-systems.com/webcat/request/Action?ClientSession=2de590be:18165c1105c:-7ec2&UniqueID=6000_3355_2&TemplateProcessID=6000_3355&PromptID=&ParamID=&CMD_(DetailRequest)[0]=&ProcessID=6000_3363(0)&KeyValues=KEY_450943" target="_blank">1979 plans</a> were sourced from the Toronto Archives. 
+	
+	The image from the Globe and Mail was sourced from the University of Toronto Library.
+	
+	Check out the following links for further reading on South Parkdale and the history of the Lakeshore (Gardiner) Expressway:
+	</p>
+	<ul>
+		<li><a href="http://www.gettorontomoving.ca/gardiner-expressway.html" target="_blank">The Gardiner Expressway</a></li>
+		<li><a href="https://torontoguardian.com/2012/07/south-parkdale-vintage-fitted-tees-dont-exist/" target="_blank">“South Parkdale” vintage fitted tees don’t exist</a></li>
+		<li><a href="http://spacing.ca/toronto/2017/03/04/lost-streets-south-parkdale/" target="_blank">The lost streets of South Parkdale</a></li>
+	</ul> 
 </div>
