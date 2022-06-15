@@ -120,12 +120,13 @@
 		height: 154px;
 		margin-top: 7px;
 		margin-right: 17px;
+		border: solid 1px rgb(235, 235, 235);
 	}
 
 	.image {
 		margin: auto;
-		width: 100%;
-		max-width: 1000px;
+		width: calc(100vw);
+		max-width: 700px;
 		border: 1px solid rgb(213, 213, 213);
 		box-shadow: 5px 5px 0 0 rgb(244, 244, 244);
 	}
@@ -133,9 +134,10 @@
 		border: 1px solid red;
 	}
 	.image img {
-		max-width: 980px;
+		width: calc(100vw - 22px);
+		max-width: 680px;
 		padding: 10px;
-		width: 100%;
+		margin-right: 0px;
 		opacity: 0.65;
 	}
 	.image img:hover {
