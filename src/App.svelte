@@ -248,7 +248,6 @@
 		margin-top: 35px;
 		font-size: 19px;
 		font-family: TradeGothicBold, sans-serif;
-		/* font-family: 'Roboto', sans-serif; */
 		line-height: 1.45;
 	}
 	.subtitle h3 {
@@ -266,7 +265,6 @@
 		min-width: 300px;
 		font-size: 19px;
 		font-family: "Source Serif Pro", serif;
-		/* font-family: 'Roboto', sans-serif; */
 		line-height: 1.45;
 		padding: 20px;
 	}
