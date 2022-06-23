@@ -227,13 +227,13 @@
 		background-color: rgba(255, 255, 255, 0.54);
 		border: solid 1px red;
 	}
-	@media (max-width:654px) {
+	@media (max-width: 654px) {
 		#title h1 {
 			font-size: 40px;
 			max-width: 700px;
 		}
 	}
-	@media (max-width:580px) {
+	@media (max-width: 580px) {
 		#title h1 {
 			font-size: 36px;
 			max-width: 400px;
