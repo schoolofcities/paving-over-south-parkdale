@@ -219,7 +219,7 @@
 		position: absolute;
 		font-size: 46px;
 		max-width: 800px;
-		min-width: 300px;
+		min-width: 200px;
 		margin: auto;
 		padding: 10px;
 		padding-left: 50px;
