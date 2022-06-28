@@ -5,6 +5,7 @@
 	import airphoto1957 from "./assets/TA_1957_screenshot.png";
 	import globe1955 from "./assets/1955dec1globe.png";
 	import MiniMap from "./assets/mini-map.png";
+	import plan_1979_B from './assets/plan_1979_B.jpg'
 </script>
 
 <svelte:head>
@@ -110,14 +111,18 @@
 		covering the expressway in aims to reduce it's noise, better connect Parkdale
 		to the waterfront, as well as create space for residential development. Due
 		to high costs, the plans never came to fruition, but they do illustrate how
-		some of the detriments of the expressway could be converted into needed green
+		some of the detriments of the expressway could be converted into green
 		space and public housing in the future.
 	</p>
 </div>
 
 <div class="road">
 	<div class="white">
-		<Compare1979 />
+		<div class="image">
+			<a href={plan_1979_B} target="_blank"
+				><img src={plan_1979_B} alt="1979 Plan for South Parkdale" /></a
+			>
+		</div>
 	</div>
 </div>
 
@@ -309,7 +314,7 @@
 		max-width: 680px;
 		padding: 10px;
 		margin-right: 0px;
-		opacity: 0.65;
+		opacity: 0.75;
 	}
 	.image img:hover {
 		opacity: 0.89;

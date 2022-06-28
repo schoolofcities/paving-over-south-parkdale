@@ -15,6 +15,7 @@
 	}
 </script>
 
+
 <style>
 	
 	#compare-images {
@@ -23,22 +24,22 @@
 		width: 100%;
 		border: 1px solid rgb(213, 213, 213);
 		box-shadow: 5px 5px 0 0 rgb(244, 244, 244);
-		opacity: 0.84;
+		opacity: 0.89;
 	}
 
 	#compare-images:hover {
 		border: 1px solid red;
 		cursor: pointer;
-		opacity: 0.95;
+		opacity: 0.99;
 	}
 
 	img {
 		max-width: 1000px;
 		width: 100%;
+		height: 100%;
 	}
 
 </style>
-
 
 
 
