@@ -1,7 +1,6 @@
 <script>
 	import TopSofC from "./lib/TopSofC.svelte";
 	import Compare1947v1964 from "./lib/Compare1947v1964.svelte";
-	import Compare1979 from "./lib/Compare1979.svelte";
 	import airphoto1957 from "./assets/TA_1957_screenshot.png";
 	import globe1955 from "./assets/1955dec1globe.png";
 	import MiniMap from "./assets/mini-map.png";
@@ -43,9 +42,9 @@
 <div class="body-text">
 	<p>
 		The mid-20th century was a time of contentious highway construction. By
-		the mid-1950s, there were already several intra-urban expressways in
+		the mid-1950s, there were already several expressways in
 		southern Ontario (Highways 400, 401, and the QEW), and Metro Toronto
-		officials were in the process of planning five additional expressways to
+		officials were in the process of planning five additional expressways to 
 		connect these existing these to the downtown core.
 	</p>
 	<p>
@@ -108,7 +107,7 @@
 		In 1979, <a href="https://en.wikipedia.org/wiki/John_Sewell"
 			>John Sewell</a
 		> (mayor of Toronto from 1978 to 1980) and his staff released a plan for
-		covering the expressway in aims to reduce it's noise, better connect Parkdale
+		covering the expressway in aims to reduce its noise, better connect Parkdale
 		to the waterfront, as well as create space for residential development. Due
 		to high costs, the plans never came to fruition, but they do illustrate how
 		some of the detriments of the expressway could be converted into green
@@ -314,7 +313,7 @@
 		max-width: 680px;
 		padding: 10px;
 		margin-right: 0px;
-		opacity: 0.75;
+		opacity: 0.78;
 	}
 	.image img:hover {
 		opacity: 0.89;
