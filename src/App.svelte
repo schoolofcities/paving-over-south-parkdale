@@ -45,7 +45,7 @@
 		the mid-1950s, there were already several expressways in
 		southern Ontario (Highways 400, 401, and the QEW), and Metro Toronto
 		officials were in the process of planning five additional expressways to 
-		connect these existing these to the downtown core.
+		connect to the downtown core.
 	</p>
 	<p>
 		Here's an excerpt from the The Globe and Mail from December 1, 1955,
@@ -101,6 +101,9 @@
 		<Compare1947v1964 />
 	</div>
 </div>
+
+
+
 
 <div class="body-text">
 	<p>
