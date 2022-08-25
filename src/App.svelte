@@ -102,12 +102,11 @@
 	</div>
 </div>
 
-	<p>In 1951, South Parkdale was home to 760 residents living in 142 homes. All were displaced to make way for the new expressway.</p>
-
-
-
-
 <div class="body-text">
+
+	<p>In <span class="bold">1956</span>, South Parkdale was home to <span class="bold">634</span> residents living in <span class="bold">168</span> households. All residents were displaced and their dwellings destroyed to make way for the new expressway in the following years.</p>
+
+
 	<p>
 		In 1979, <a href="https://en.wikipedia.org/wiki/John_Sewell"
 			>John Sewell</a
@@ -152,6 +151,13 @@
 		(Gardiner) Expressway:
 	</p>
 	<ul>
+		<li>
+			<a
+				href="https://www.ubcpress.ca/suburb-slum-urban-village"
+				target="_blank">Suburb, Slum, Urban Village: 
+				Transformations in Toronto's Parkdale Neighbourhood, 1875-2002</a
+			>
+		</li>
 		<li>
 			<a
 				href="http://www.gettorontomoving.ca/gardiner-expressway.html"
