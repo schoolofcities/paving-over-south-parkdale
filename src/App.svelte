@@ -87,7 +87,7 @@
 
 	<p>
 		The following air photos show South Parkdale in 1947, several years
-		before the construction of the Lakeshore Expressway, and what the newly
+		before the construction of the Lakeshore Expressway (built from 1957 to 1959), and what the newly
 		finished roadway looked like in 1964. The 1947 image also shows how the
 		neighbourhood had already undergone some deformant in the 1920s, when
 		Lakeshore Boulavard was extended through the neighbourhood. By the early
@@ -101,6 +101,8 @@
 		<Compare1947v1964 />
 	</div>
 </div>
+
+	<p>In 1951, South Parkdale was home to 760 residents living in 142 homes. All were displaced to make way for the new expressway.</p>
 
 
 
