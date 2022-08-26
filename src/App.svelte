@@ -168,7 +168,7 @@
 			<a
 				href="https://torontoguardian.com/2012/07/south-parkdale-vintage-fitted-tees-dont-exist/"
 				target="_blank"
-				>“South Parkdale” vintage fitted tees don’t exist</a
+				>“South Parkdale” vintage fitted tees don't exist</a
 			>
 		</li>
 		<li>
