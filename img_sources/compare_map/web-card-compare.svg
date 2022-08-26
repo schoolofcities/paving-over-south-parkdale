@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="500"
+   viewBox="0 0 264.58333 132.29167"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="web-card-compare.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="1000px"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:zoom="0.25"
+     inkscape:cx="-728"
+     inkscape:cy="794"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5610" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1295">
+      <rect
+         style="fill:#1e3765;stroke-width:0.273238"
+         id="rect1297"
+         width="147.70293"
+         height="133.3656"
+         x="116.88043"
+         y="149.28194" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       width="264.58334"
+       height="132.29167"
+       preserveAspectRatio="none"
+       xlink:href="Q_1947.png"
+       id="image878"
+       x="0"
+       y="0" />
+    <image
+       width="264.58334"
+       height="132.29167"
+       preserveAspectRatio="none"
+       xlink:href="Q_1964.png"
+       id="image950"
+       x="1.5258789e-05"
+       y="149.28194"
+       clip-path="url(#clipPath1295)"
+       transform="translate(0,-149.28194)" />
+    <path
+       style="fill:#ff0000;stroke:#ffffff;stroke-width:1.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 116.88043,-3.3544922e-6 V 133.36558"
+       id="path1095" />
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:2.43199;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4883"
+       width="15.715316"
+       height="7.645875"
+       x="0"
+       y="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.68612px;line-height:1.25;font-family:sans-serif;stroke-width:0.355382"
+       x="1.2953149"
+       y="5.8563457"
+       id="text3039"><tspan
+         sodipodi:role="line"
+         id="tspan3037"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#ff0000;stroke-width:0.355382"
+         x="1.2953149"
+         y="5.8563457">1947</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:2.43199;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4883-7"
+       width="15.715316"
+       height="7.645875"
+       x="248.86806"
+       y="-3.3544923e-06" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.68612px;line-height:1.25;font-family:sans-serif;stroke-width:0.355382"
+       x="250.16338"
+       y="5.8563423"
+       id="text3039-8"><tspan
+         sodipodi:role="line"
+         id="tspan3037-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#ff0000;stroke-width:0.355382"
+         x="250.16338"
+         y="5.8563423">1964</tspan></text>
+  </g>
+</svg>
