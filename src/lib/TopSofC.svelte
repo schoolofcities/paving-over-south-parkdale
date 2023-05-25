@@ -1,5 +1,5 @@
 <script>
-	import logo from '../assets/top-logo.svg'
+	import logo from '../assets/top-logo-full.svg'
 </script>
 
 <div id="bar">
@@ -27,6 +27,8 @@
 	}
 	img {
 		color: blue;
+		height: 50px;
+		margin-left: -20px;
 	}
 	img:hover {
 		opacity: 0.7;
