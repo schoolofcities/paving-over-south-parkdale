@@ -66,24 +66,14 @@
 
 <div class="body-text">
 	<p>
-		The two top priority highways, the Don Valley Parkway and The Lakeshore
-		Expressway (later renamed after the first chair of the Metro Council,
-		Frederick G. Gardiner) were built during the late 1950s and early 1960s.
-		The routes of these expressways mostly traversed green-space and
-		industrial land, rather than not primarily through residential neighbourhoods.
-		(The other three planned expressways on this map were to traverse a
-		number residential neighbourhoods, and were eventually halted due to
-		strong public opposition).
+		The two top-priority highways, the Don Valley Parkway and The Lakeshore Expressway (later renamed after the first chair of the Metro Council, Frederick G. Gardiner), were built during the late 1950s and early 1960s. The routes of these expressways mostly traversed green space and industrial land, rather than primarily through residential neighbourhoods. (The other three planned expressways on this map were to pass through a number of residential neighbourhoods and were eventually halted due to strong public opposition.)
 	</p>
 
 	<img src={MiniMap} alt="Globe and Mail, Dec 1, 1955" />
 	<p>
-		However, there was a neighbourhood along the route of the Lakeshore
-		Expressway that was destroyed during this process, <span class="bold"
+		However, there was a neighbourhood along the route of the Lakeshore Expressway that was destroyed during this process:  <span class="bold"
 			>South Parkdale</span
-		>, located between the railway and Lake Ontario. The neighbourhood
-		primarily consisted of single-detached homes, similar in style to those
-		still found north of the railroad tracks.
+		>,  located between the railway and Lake Ontario. The neighbourhood primarily consisted of single-detached homes, similar in style to those still found north of the railroad tracks.
 	</p>
 
 	<p>
