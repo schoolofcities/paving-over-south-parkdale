@@ -137,7 +137,7 @@
 		This page and its content were compiled by <a
 			href="https://jamaps.github.io"
 			target="_blank">Jeff Allen</a
-		>. The
+		> in 2022. The
 		<a
 			href="https://www.toronto.ca/city-government/accountability-operations-customer-service/access-city-information-or-records/city-of-toronto-archives/whats-online/maps/aerial-photographs/"
 			target="_blank">air photos</a
