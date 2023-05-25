@@ -69,8 +69,8 @@
 		The two top priority highways, the Don Valley Parkway and The Lakeshore
 		Expressway (later renamed after the first chair of the Metro Council,
 		Frederick G. Gardiner) were built during the late 1950s and early 1960s.
-		The routes of these expressways generally followed green-space and
-		industrial land, and not primarily through residential neighbourhoods.
+		The routes of these expressways mostly traversed green-space and
+		industrial land, rather than not primarily through residential neighbourhoods.
 		(The other three planned expressways on this map were to traverse a
 		number residential neighbourhoods, and were eventually halted due to
 		strong public opposition).
@@ -90,7 +90,7 @@
 		The following air photos show South Parkdale in 1947, several years
 		before the construction of the Lakeshore Expressway (built from 1957 to 1959), and what the newly
 		finished roadway looked like in 1964. The 1947 image also shows how the
-		neighbourhood had already undergone some deformant in the 1920s, when
+		neighbourhood had already undergone some destruction in the 1920s, when
 		Lakeshore Boulavard was extended through the neighbourhood. By the early
 		1960s, all houses below the railway were gone, replaced by 12+ lanes of
 		traffic and swaths of manicured grass.
@@ -189,6 +189,9 @@
 			>
 		</li>
 	</ul>
+	<p>
+		Also check out our <a href="https://schoolofcities.github.io/historical-aerial-imagery-toronto/" target="_blank">interactive map</a> showing multiple years of historical air photos in Toronto (1939 to present day).
+	</p>
 </div>
 
 <style>
