@@ -4,7 +4,8 @@
 	import airphoto1957 from "./assets/TA_1957_screenshot.png";
 	import globe1955 from "./assets/1955dec1globe.png";
 	import MiniMap from "./assets/mini-map.png";
-	import plan_1979_B from './assets/plan_1979_B.jpg'
+	import plan_1979_A from './assets/plan_1979_A.jpg';
+	import plan_1979_B from './assets/plan_1979_B.jpg';
 </script>
 
 <svelte:head>
@@ -124,6 +125,16 @@
 		<div class="image">
 			<a href={plan_1979_B} target="_blank"
 				><img src={plan_1979_B} alt="1979 Plan for South Parkdale" /></a
+			>
+		</div>
+	</div>
+</div>
+<br>
+<div class="road">
+	<div class="white">
+		<div class="image">
+			<a href={plan_1979_A} target="_blank"
+				><img src={plan_1979_A} alt="1979 Plan for South Parkdale" /></a
 			>
 		</div>
 	</div>
@@ -324,10 +335,10 @@
 		max-width: 680px;
 		padding: 10px;
 		margin-right: 0px;
-		opacity: 0.78;
+		opacity: 0.95;
 	}
 	.image img:hover {
-		opacity: 0.89;
+		opacity: 1;
 	}
 
 	.info {
